@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
     <!-- font style -->
     <style>
-        .work-sans{
+        .work-sans {
             font-family: 'Work Sans', sans-serif;
         }
     </style>
@@ -26,6 +26,7 @@
                     colors: {
                         clifford: '#da373d',
                         'basic-color': '#E527B2',
+                        'card-background': '#1111110D',
                     }
                 }
             }
@@ -35,22 +36,255 @@
 </head>
 
 <body class="work-sans">
-    <!-- banner section -->
-    <section class="bg-[#F9F6E2]">
-        <div class="flex min-h-screenitems-center justify-center pt-20">
-            <div class="flex flex-col-reverse lg:flex-row w-4/5 text-center items-center justify-between">
-                <div>
-                    <h3 class="text-3xl md:text-5xl font-medium mb-9">---SALE FEVER---</h3>
-                    <h1 class="text-3xl md:text-6xl lg:text-5xl font-bold">Purchase TK 200 or<br> above & get <span class="text-basic-color">20% off</span></h1>
-                    <div class="flex flex-row md:text-4xl  items-center justify-center mt-14">
-                        <p>Use Promo Code </p>
-                        <button class="w-24 h-10 md:w-44 md:h-14 bg-basic-color rounded-lg ml-2 text-white">SELL200</button>
+    <main>
+        <!-- banner section -->
+        <section class="bg-[#F9F6E2]">
+            <div class="flex min-h-screenitems-center justify-center pt-20">
+                <div class="flex flex-col-reverse lg:flex-row w-4/5 text-center items-center justify-between">
+                    <div>
+                        <h3 class="text-3xl md:text-5xl font-medium mb-9">---SALE FEVER---</h3>
+                        <h1 class="text-3xl md:text-6xl lg:text-5xl font-bold">Purchase TK 200 or<br> above & get <span
+                                class="text-basic-color">20% off</span></h1>
+                        <div class="flex flex-row md:text-4xl  items-center justify-center mt-14 pb-4">
+                            <p>Use Promo Code </p>
+                            <button
+                                class="w-24 h-10 md:w-44 md:h-14 bg-basic-color rounded-lg ml-2 text-white">SELL200</button>
+                        </div>
+                    </div>
+                    <img src="images/Summer 1.png" class="w-full lg:w-3/6 rounded-lg" />
+                </div>
+            </div>
+        </section>
+        <!-- card section -->
+        <section>
+            <div class="flex flex-col lg:flex-row mt-24 w-4/5 mx-auto bg-[#F8F8F8]">
+                <div class="flex-1">
+                    <!-- Kitchenware -->
+                    <h2 class="text-4xl font-semibold mb-5">Kitchenware</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <!-- first card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod1.png" alt="product1" class="rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">K. Accessories</h2>
+                                    <p class="text-[#1111117F]">39.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod2.png" alt="product2" class="rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">K. Accessories</h2>
+                                    <p class="text-[#1111117F]">25.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- third card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod3.png" alt="product3" class="rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Home Cooker</h2>
+                                    <p class="text-[#1111117F]">49.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sportswear -->
+                    <h2 class="text-4xl font-semibold mt-10 mb-5">Sportswear</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <!-- first card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod4.png" alt="product1" class="rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Sports Back Cap</h2>
+                                    <p class="text-[#1111117F]">49.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod5.png" alt="product2" class="h-28 rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Full Jersey Set</h2>
+                                    <p class="text-[#1111117F]">69.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- third card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod6.png" alt="product3" class="h-28 rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Sports cates</h2>
+                                    <p class="text-[#1111117F]">159.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Furniture -->
+                    <h2 class="text-4xl font-semibold mt-10 mb-5">Furniture</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <!-- first card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod7.png" alt="product1" class="h-28 rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Single Relax Chair</h2>
+                                    <p class="text-[#1111117F]">185.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod8.png" alt="product8" class="h-28 rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Children play</h2>
+                                    <p class="text-[#1111117F]">299.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- third card -->
+                        <div class="flex flex-row">
+                            <div class="card w-96 bg-white">
+                                <figure class="m-5 bg-card-background p-10">
+                                    <img src="images/prod9.png" alt="product9" class="h-28 rounded-xl" />
+                                </figure>
+                                <!-- rating -->
+                                <div class="rating mx-auto">
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                </div>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Flexible Sofa</h2>
+                                    <p class="text-[#1111117F]">339.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <img src="images/Summer 1.png" class="w-full lg:w-3/6 rounded-lg" />
+
+                <!-- Calculate Price -->
+                <div class="ml-5 mb-4 pt-14 w-64">
+                    <p class="text-2xl font-medium mb-2">Have coupon?</p>
+                    <div class="form-control mb-12">
+                        <div class="input-group">
+                            <input type="text" placeholder="Coupon code" class="input w-40 input-bordered" />
+                            <button class="btn bg-basic-color text-white">Apply</button>
+                        </div>
+                    </div>
+                    <!-- item cart list -->
+                    <div class="mb-5">
+                        <p>1. Demo item 1</p>
+                    </div>
+                    <p>Total price : 0Tk</p>
+                    <p>Discount : 0Tk</p>
+                    <p>Total : 0Tk</p>
+                    <button class="mt-10 bg-basic-color w-60 h-10 text-white rounded-lg">Make Purchase</button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </main>
 </body>
 
 </html>
