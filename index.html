@@ -64,7 +64,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                         <!-- first card -->
                         <div class="flex flex-row">
-                            <div onclick="addToCart(this)"  class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod1.png" alt="product1" class="rounded-xl" />
                                 </figure>
@@ -268,8 +268,10 @@
                     <p class="text-2xl font-medium mb-2">Have coupon?</p>
                     <div class="form-control mb-12">
                         <div class="input-group">
-                            <input id="input-field" type="text" placeholder="Coupon code" class="input w-40 input-bordered" />
-                            <button id="apply-btn" class="btn bg-basic-color text-white" disabled>Apply</button>
+                            <input id="input-field" type="text" placeholder="Coupon code"
+                                class="input w-40 input-bordered" />
+                            <button id="apply-btn" class="btn bg-basic-color text-white"
+                                disabled>Apply</button>
                         </div>
                     </div>
                     <!-- item cart list -->
@@ -279,8 +281,20 @@
                     <p>Total price : <span id="total-price">0</span>Tk</p>
                     <p>Discount : <span id="discount-price">0</span>Tk</p>
                     <p>Total : <span id="total">0</span> Tk</p>
-                    <button id="make-purchase" class="btn capitalize mt-10 bg-basic-color w-60 h-10 text-white
+                    <button  onclick="my_modal.showModal()" id="make-purchase" class="btn capitalize mt-10 bg-basic-color w-60 h-10 text-white
                     " disabled>Make Purchase</button>
+                    <!-- opening Modal -->
+                    <dialog id="my_modal" class="modal">
+                        <form method="dialog" class="modal-box text-center w-72 max-w-5xl">
+                            <img class="w-32 mx-auto" src="images/congo.png" alt="">
+                            <h3 class="font-bold text-lg">Congratulations</h3>
+                            <p class="py-4">Your Purchase the product</p>
+                            <div>
+                                <!-- if there is a button, it will close the modal -->
+                                <button onclick="goToHome()" class="btn bg-basic-color text-white">Go Home</button>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
             </div>
         </section>

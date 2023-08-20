@@ -40,3 +40,7 @@ document.getElementById('apply-btn').addEventListener('click',function(){
         alert('Wrong coupon!!!  please enter valid coupon code');
     }
 })
+
+function goToHome () { 
+    window.location.href = "index.html";
+};
