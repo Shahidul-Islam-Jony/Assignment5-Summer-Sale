@@ -64,7 +64,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                         <!-- first card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)"  class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod1.png" alt="product1" class="rounded-xl" />
                                 </figure>
@@ -78,14 +78,14 @@
                                     <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div class="card-body items-center text-center">
-                                    <h2 class="card-title">K. Accessories</h2>
-                                    <p class="text-[#1111117F]">39.00 TK</p>
+                                    <h2 id="name" class="card-title">K. Accessories</h2>
+                                    <p id="first-item-price" class="text-[#1111117F]">39.00 TK</p>
                                 </div>
                             </div>
                         </div>
                         <!-- second card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod2.png" alt="product2" class="rounded-xl" />
                                 </figure>
@@ -99,13 +99,13 @@
                                 </div>
                                 <div class="card-body items-center text-center">
                                     <h2 class="card-title">K. Accessories</h2>
-                                    <p class="text-[#1111117F]">25.00 TK</p>
+                                    <p id="second-item-price" class="text-[#1111117F]">25.00 TK</p>
                                 </div>
                             </div>
                         </div>
                         <!-- third card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod3.png" alt="product3" class="rounded-xl" />
                                 </figure>
@@ -119,7 +119,7 @@
                                     <input type="checkbox" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <div class="card-body items-center text-center">
-                                    <h2 class="card-title">Home Cooker</h2>
+                                    <h2 id="name" class="card-title">Home Cooker</h2>
                                     <p class="text-[#1111117F]">49.00 TK</p>
                                 </div>
                             </div>
@@ -129,11 +129,11 @@
                     <!-- Sportswear -->
                     <h2 class="text-4xl font-semibold mt-10 mb-5">Sportswear</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                        <!-- first card -->
+                        <!-- fourh card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
-                                    <img src="images/prod4.png" alt="product1" class="rounded-xl" />
+                                    <img src="images/prod4.png" alt="product4" class="rounded-xl" />
                                 </figure>
                                 <!-- rating -->
                                 <div class="rating mx-auto">
@@ -150,11 +150,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- second card -->
+                        <!-- fifth card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
-                                    <img src="images/prod5.png" alt="product2" class="h-28 rounded-xl" />
+                                    <img src="images/prod5.png" alt="product5" class="h-28 rounded-xl" />
                                 </figure>
                                 <!-- rating -->
                                 <div class="rating mx-auto">
@@ -171,11 +171,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- third card -->
+                        <!-- sixth card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
-                                    <img src="images/prod6.png" alt="product3" class="h-28 rounded-xl" />
+                                    <img src="images/prod6.png" alt="product6" class="h-28 rounded-xl" />
                                 </figure>
                                 <!-- rating -->
                                 <div class="rating mx-auto">
@@ -197,11 +197,11 @@
                     <!-- Furniture -->
                     <h2 class="text-4xl font-semibold mt-10 mb-5">Furniture</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                        <!-- first card -->
+                        <!-- seventh card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
-                                    <img src="images/prod7.png" alt="product1" class="h-28 rounded-xl" />
+                                    <img src="images/prod7.png" alt="product7" class="h-28 rounded-xl" />
                                 </figure>
                                 <!-- rating -->
                                 <div class="rating mx-auto">
@@ -218,9 +218,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- second card -->
+                        <!-- eighth card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod8.png" alt="product8" class="h-28 rounded-xl" />
                                 </figure>
@@ -239,9 +239,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- third card -->
+                        <!-- nineth card -->
                         <div class="flex flex-row">
-                            <div class="card w-96 bg-white">
+                            <div onclick="addToCart(this)" class="card w-96 bg-white">
                                 <figure class="m-5 bg-card-background p-10">
                                     <img src="images/prod9.png" alt="product9" class="h-28 rounded-xl" />
                                 </figure>
@@ -269,22 +269,26 @@
                     <div class="form-control mb-12">
                         <div class="input-group">
                             <input type="text" placeholder="Coupon code" class="input w-40 input-bordered" />
-                            <button class="btn bg-basic-color text-white">Apply</button>
+                            <button id="apply-btn" class="btn bg-basic-color text-white" disabled>Apply</button>
                         </div>
                     </div>
                     <!-- item cart list -->
-                    <div class="mb-5">
-                        <p>1. Demo item 1</p>
+                    <div id="add-items" class="mb-5">
+                        <!-- cart items will add here -->
                     </div>
-                    <p>Total price : 0Tk</p>
-                    <p>Discount : 0Tk</p>
-                    <p>Total : 0Tk</p>
-                    <button class="mt-10 bg-basic-color w-60 h-10 text-white rounded-lg">Make Purchase</button>
+                    <p>Total price : <span id="total-price">0</span>Tk</p>
+                    <p>Discount : 0 Tk</p>
+                    <p>Total : 0 Tk</p>
+                    <button id="make-purchase" class="btn capitalize mt-10 bg-basic-color w-60 h-10 text-white
+                    " disabled>Make Purchase</button>
                 </div>
             </div>
         </section>
 
     </main>
+
+
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
