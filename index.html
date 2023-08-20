@@ -268,7 +268,7 @@
                     <p class="text-2xl font-medium mb-2">Have coupon?</p>
                     <div class="form-control mb-12">
                         <div class="input-group">
-                            <input type="text" placeholder="Coupon code" class="input w-40 input-bordered" />
+                            <input id="input-field" type="text" placeholder="Coupon code" class="input w-40 input-bordered" />
                             <button id="apply-btn" class="btn bg-basic-color text-white" disabled>Apply</button>
                         </div>
                     </div>
@@ -277,8 +277,8 @@
                         <!-- cart items will add here -->
                     </div>
                     <p>Total price : <span id="total-price">0</span>Tk</p>
-                    <p>Discount : 0 Tk</p>
-                    <p>Total : 0 Tk</p>
+                    <p>Discount : <span id="discount-price">0</span>Tk</p>
+                    <p>Total : <span id="total">0</span> Tk</p>
                     <button id="make-purchase" class="btn capitalize mt-10 bg-basic-color w-60 h-10 text-white
                     " disabled>Make Purchase</button>
                 </div>
