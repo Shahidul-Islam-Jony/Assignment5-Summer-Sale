@@ -28,6 +28,7 @@ function totalPrice(price){
 document.getElementById('apply-btn').addEventListener('click',function(){
     const inputField = document.getElementById('input-field');
     const inputValue = inputField.value;
+    inputField.value ='';
     if(inputValue === 'SELL200'){
         const totalPriceInString = document.getElementById('total-price').innerText;
         const totalPrice = parseFloat(totalPriceInString);
